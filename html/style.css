@@ -1,0 +1,229 @@
+body{
+    background-color: #EAE0FC;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.left-area{
+    width: 45%;
+    margin: auto;
+    background: white;
+    float: left;
+    box-shadow: 2px 3px 5px;
+    height: 597px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.left-area::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.top h3{
+    width: 30%;
+    font-family: tahoma;
+    font-size: 24px;
+    color: #562F98;
+    float: left;
+    margin-left: -10px;
+    
+}
+
+.menu-bar ul{
+    margin: 0;
+    padding: 0;
+    background: red;
+    
+       
+}
+.menu-bar ul li{
+    list-style-type: none;
+    float: left;
+    margin-top: 22px;
+    
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+}
+.menu-bar{
+    font-family: tahoma;
+    width: 70%;
+    margin-left: 60px;
+}
+.top{
+    width: 537px;
+    margin: auto;
+    display: inline-block;
+    padding: 10px
+}
+.middle h4{
+    text-align: center;
+    font-family: tahoma;
+    font-size: 23px;
+    
+}
+.middle h5{
+    font-size: 19px;
+    font-weight: 100;
+}
+.middle p{
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: -30px
+}
+.middle p a{
+    text-decoration: none;
+}
+form{
+   overflow: hidden;
+}
+.middle input[type="text"]{
+    position: absolute;
+    padding: 23px ;
+    width: 38%;
+    box-shadow: 1px 0px 5px;
+    float: left;
+    font-size: 19px;
+    border:0;
+    border-left: 4px solid #FC85DA;
+    margin-top: 20px
+    
+}
+.search-box span{
+    display: block;
+    position: absolute;
+    margin-left: 544px;
+    margin-top: 42px;
+    
+}
+.icon ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 110px
+}
+.icon ul li{
+    list-style-type: none;
+    margin-right: 10px;
+    float: left;
+}
+.icon ul li a{
+    background-image: url('imge%20speite.JPG');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 53px;
+    height: 53px;
+    display: block;
+    border-radius: 50%;
+    transition: 1s;
+ 
+}
+.icon ul li:nth-child(1) a{
+    background-position: 0 -100px
+}
+.icon ul li:hover:nth-child(1) a{
+    background-position: 0 -200px
+}
+.icon ul li:nth-child(2) a{
+    background-position:-62px -100px;
+}
+.icon ul li:hover:nth-child(2) a{
+    background-position:-62px -200px;
+}
+.icon ul li:nth-child(3) a{
+    background-position:-123px -100px;
+}
+.icon ul li:hover:nth-child(3) a{
+    background-position:-123px -200px;
+}
+.icon ul li:nth-child(4) a{
+    background-position:-183px -100px;
+}
+.icon ul li:hover:nth-child(4) a{
+    background-position:-183px -200px;
+}
+.bottom a{
+    text-decoration: none;
+    font-size: 19px;
+    font-family: tahoma;
+   
+}
+.bottom{
+    margin-top: 30px
+}
+.bottom .material-icons{
+    color: deeppink;
+    
+}
+/*---end left area */
+.right-area{
+    width: 55%;
+    height: 597px;
+    background: linear-gradient(to right top,#8478DC,#F64AC9);
+    box-shadow: 2px 3px 7px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    
+}
+.top-right .material-icons{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: lightgoldenrodyellow;
+    margin-top: 40px; 
+}
+.top-right h3{
+    text-align: center;
+    font-family: tahoma;
+    color: antiquewhite;
+    font-weight: 400;
+    font-size: 20px;
+}
+.middle-right{
+    text-align: center;
+    width: 220px;
+    height: 150px;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 80px;
+    box-shadow: 0 0 10px
+}
+.middle-right .material-icons{
+    display: block;
+    font-size: 40px;
+    color: navajowhite;
+}
+.middle-right h3{
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 13px
+}
+.bottom-right img{
+    width: 8%;
+    display: block;
+    margin:auto;
+    margin-top: 90px;
+    
+    
+}
+.bottom-right h4{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #EFEBF8;
+    text-align: center
+}
